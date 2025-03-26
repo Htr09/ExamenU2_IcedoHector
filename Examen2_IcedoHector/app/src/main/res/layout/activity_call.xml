@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#000000"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/calling_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamando..."
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/end_call_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Colgar"
+        android:padding="10dp"
+        android:backgroundTint="#FF0000"/>
+</LinearLayout>
